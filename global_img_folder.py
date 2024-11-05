@@ -6,8 +6,9 @@ Place all pictures into a single folder, enumerated from 0 to n
 '''
 
 #make directories
-root = "/Users/ivangaspart/PycharmProjects/majorpredictor/newdata/"
-new_root = "/Users/ivangaspart/PycharmProjects/majorpredictor/onefolder/"
+local = "" #insert script directory
+root = f"{local}newdata/"
+new_root = f"{local}onefolder/"
 os.makedirs(new_root, exist_ok=True)
 
 
